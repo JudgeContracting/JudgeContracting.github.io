@@ -1,0 +1,297 @@
+/* Horizontal Scroll while browser size is less than the viewpoints removed */
+
+html {
+	overflow-x: hidden; 
+}
+
+/* Fix for Navigation controls on the v1 slider */ 
+
+@media only screen and (max-width: 767px) {
+
+	.home-v1-featured-slider .slide-content .slide-text { display: none;}
+
+}
+@media only screen and (max-width: 479px) {
+
+.home-v1-featured-slider .carousel-control { top: 71%; }
+
+}
+
+/* Fix for Featured Images on Mobile Devices */
+
+.featured-box img {
+	width: 100%;
+}
+
+
+/*Fix for footer subscribe on mbile devices*/
+@media only screen and (max-width: 479px) {
+
+.footer-subscribe-widget input {max-width: 150px;}
+
+}
+
+/*Header mobile responsive menu fix*/
+
+@media only screen and (max-width: 479px) {
+
+a.nav-toggle { float: none!important; display: table; margin: 0 auto; top: -20px; }
+.logo { float: none!important;display: table;margin: 0 auto; }
+}
+
+/*Call to action buttons mobile responsive fix*/
+
+@media only screen and (max-width: 479px) {
+
+.red-cta-btn { text-align: center; padding: 22px 20px; font-size: 1em; }
+.cyan-cta-btn { text-align: center; padding: 22px 20px; font-size: 1em; }
+.blue-cta-btn { text-align: center; padding: 22px 20px; font-size: 1em; }
+
+}
+
+
+/* Fixing basic heading container responsive glitch with the down arrow */
+
+@media only screen and (max-width: 767px) {
+	
+.page-heading-container i.icon-caret-down {display: none;}
+
+
+/*Fixing the alignment of the share buttons*/
+
+}
+@media only screen and (max-width: 479px) {
+.page-heading-container .top-social { float: none; display: table; margin-left: auto; margin-right: auto; }
+.page-heading-container p.title {float: none; display: table; margin-left: auto; text-align: center; margin-right: auto;}
+.page-heading-container p.social-title {display: none!important;}
+}
+
+/*Fixing gallery spacing issues on mobile*/
+
+@media only screen and (max-width: 767px) {
+
+.gallery .img-small[data-id="1"], .gallery .img-small[data-id="2"], .gallery .img-small[data-id="3"] { margin-top: 30px; }
+
+}
+
+
+/*Fixing Services Shortcode font size responsive Issue*/
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+.service-icon h4 { font-size: 1em; }
+}
+
+
+/*FIX FOR DEMO ONLY NO NEED FOR YOUR INSTALLATION*/
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+.home-download-widget {display: none;}
+.demo-hide {display: none;}
+}
+
+/*Footer Social media icon Fix*/
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+.footer-social a{font-size: 21px;}
+}
+
+/*Home Full Slider Alignment Fix */
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 767px) {
+.home-v2-featured-slider {margin-left: 0px;}
+}
+
+/*Down Arrow Responsive Fix*/
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+.page-heading-container i.icon-caret-down { left: 283px; }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+.page-heading-container i.icon-caret-down { left: 229px; }
+}
+
+/* Twitter Widget Fix */
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+.twitter-widget ul li {padding-left: 0px;padding-top: 38px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+	.twitter-widget ul li {padding-left: 0px;padding-top: 38px;}
+}
+
+/*Recent Posts Slider Shortcode Responsive Fix*/
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+.recent .slide-content h2 {margin-top: 12px;font-size: 1.2em;line-height: 1.4;}
+}
+/*Testimonials slider Shortcode Responsive Fix*/
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+.testimonials .slide-content h2 {margin-top: 12px;font-size: 1.2em;line-height: 1.4;}
+.testimonials .slide-content span.author {margin-bottom: 8px;display: inline-block;}
+.testimonials .slide-content .desig {top: 11px;}
+}
+@media only screen and (max-width: 479px) {
+.testimonials .slide-content h2 {font-size: 20px;line-height: 1.3;}
+}
+/*Shortcode Demo Cta Buttons Fix*/
+@media only screen and (max-width: 1200px) {
+.cta-buttons a { display: table; margin: 0 auto!important; margin-bottom: 20px!important; }
+}
+/*Service box shortcode Responsive Fix*/
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+.service-text h3 {font-size: 1.100em;line-height: 25px;}
+}
+
+/*Carousel Float left/Right Fix*/
+
+div.carousel.pull-left{
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+div.carousel.pull-right{
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+
+/*Portfolio with sidebar fix*/
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+.portfolio-featured { top: -100px; max-width: 608px; }
+}
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+.portfolio-featured {top: -95px;max-width: 770px;}
+}
+@media only screen and (max-width: 1200px) {
+.portfolio-container .portfolio-title {  margin-top: 50px; }
+}
+@media only screen and (max-width: 767px) {
+.recent-projects .project-details {display: table;margin: 0 auto; max-width: 260px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+.page-heading-container .portfolio-controls {margin-left: 0px;}
+}
+
+/*Recent projects AND Recent Posts Fixes*/
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+.recent-projects .project-title {font-size: 14px;line-height: 1.4;margin-bottom: 6px;}
+.recent-projects span.project-category {font-size: 11px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+.recent-posts .post-title {font-size: 11px;}
+.recent-posts span.post-date {font-size: 11px;}
+}
+
+.recent-projects-widget h5 {
+padding-right: 22px;
+}
+
+/*CONTACT PAGE FIXES*/
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+.contact-widget div p {padding-left: 0px;padding-top: 38px; font-size: 12px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+form.contact-form button[type="submit"] { margin-right: -40px; }
+}
+@media only screen and (max-width: 767px) {
+form.contact-form button[type="submit"] { margin-right: 0px; }
+}
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+form.contact-form button[type="submit"] { margin-right: -5px; }
+}
+
+
+/*Home V2 Style Fixes*/
+@media only screen and (max-width: 767px) {
+.home-v2-featured-slider .carousel-control {width: 30px;height: 30px;font-size: 36px;line-height: 30px;}
+}
+
+
+/*Tabs Shortcode Responsive Fix*/
+@media only screen and (max-width: 767px) {
+ul.horizontal-tabs li.active i.icon-caret-down {display: none;}
+}
+
+/*Footer Subscribe Fix*/
+@media only screen and (max-width: 1200px) {
+.subscribe-box h3 {font-size: 1.2em;}
+}
+
+/*Featured Portfolio Image Fix*/
+
+.portfolio-featured img{width: 100%;}
+
+
+/*Geallery Diable on mobile Devices*/
+/*@media only screen and (max-width: 479px) {
+.gallery .img-large {display: none!important;}
+}*/
+
+
+/*Recent Posts Slider Shoirtcodes Fix*/
+
+@media only screen and (max-width: 479px) {
+	.recent a.posts-link {top: 50%;}
+	.recent .slide-content {text-align: center;}
+	.recent .carousel-control.left {top: 40%;}
+	.recent .carousel-control {top: 30%;}
+}
+
+/*Fixing the right sidebar responsiveness*/
+@media only screen and (max-width: 479px) {
+#sidebar {padding-top: 30px;}
+}
+
+/*Fixing Comments Section*/
+@media only screen and (max-width: 479px) {
+.comment-info { margin-bottom: 20px; text-align: center; }
+.comment-reply form button {float: none;display: table;margin-left: auto;margin-right: auto;}
+.author-image {margin-bottom: 20px;}
+}
+
+
+/*Hiding the sidebar on very small phone devices*/
+@media only screen and (max-width: 479px) {
+.blog-single-sidebar {display: none;}
+}
+
+/*Centering the heading caegory dropbown*/
+@media only screen and (max-width: 479px) {
+.category-dropdown {float: none!important;display: table;margin: 0 auto;}
+}
+
+/*Portfolio single image fix*/
+@media only screen and (max-width: 479px) {
+.portfolio-container { padding-top: 115px!important; }
+.portfolio-featured .overlay {display: none;}
+}
+
+/*Main Footer small fix*/
+@media only screen and (max-width: 479px) {
+#main-footer {padding-bottom: 30px;}
+}
+
+/*Services Shortcode Fix*/
+@media only screen and (max-width: 479px) {
+.service-icon i {padding-bottom: 50px;}
+}
+
+/*IE NAVIGATION FIX*/
+
+.ie7 #navigation {margin-top: 3.4em}
+.ie8 #navigation {margin-top: 3.4em}
+.no-js #navigation {margin-top: 3.4em}
+
+/*Adding Active class to the Navigation*/
+
+#navigation ul li.active > a{
+	color: #ffffff;
+}
+
+/*General Fixes*/
+.page-heading-container p.social-title {
+	font-weight: 400;
+}
+#navigation ul > li a i {
+	font-size: 0.6em;
+	position: relative;
+	top: -2px;
+}
